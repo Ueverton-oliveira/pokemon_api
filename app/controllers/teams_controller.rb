@@ -1,6 +1,7 @@
 class TeamsController < ApplicationController
   before_action :set_team, only: %i[ show edit update destroy ]
-
+                :authenticate_trainer!
+                
   # GET /teams or /teams.json
   def index
     @teams = Team.all
