@@ -13,6 +13,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
+# Authentication
+gem 'devise'
+
 # CORS
 gem 'rack-cors', '~> 1.1.1'
 
